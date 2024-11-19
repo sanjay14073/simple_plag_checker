@@ -17,7 +17,7 @@ func main() {
 	if err != nil {
 		fmt.Println("Error loading .env file")
 	}
-	res, err := docconv.ConvertPath("YOUR_PPT_PATH")
+	res, err := docconv.ConvertPath("YOUR_FILE_PATH")
 	if err != nil {
 		fmt.Println(err)
 	}
